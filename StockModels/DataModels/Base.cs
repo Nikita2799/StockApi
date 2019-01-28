@@ -12,6 +12,6 @@ namespace StockModels.DataModels
 
         public int Amount  { get; set; }
 
-        public DateTime Date=DateTime.Now;
+        public DateTime Date;
     }
 }

@@ -18,13 +18,19 @@ namespace StockBusinessLogic
         {
             var arrivals = new List<Arrival>
             {
-                {
-                }
-
-
-                   
-                
+                new Arrival{
+                    GoodId=1,
+                    Amount=10,
+                    Date=DateTime.Now
+                },
+                new Arrival{
+                    GoodId=2,
+                    Amount=15,
+                    Date=DateTime.Now
+                }                                 
             };
+
+            return arrivals;
         }
     }
 }
